@@ -1,0 +1,6 @@
+DataFolder=${PWD}
+cd ~/image_store/Scripts/PyBioCapillar/
+NameScript="dPIV"
+NameScriptPy=$NameScript".py"
+#echo $0 $1
+python $NameScriptPy $DataFolder $1
